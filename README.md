@@ -14,4 +14,7 @@ ls -l  # list all visible files and folders in the long format
 ls -al  # list all files and folders in the long format 
 mkdir abc  # create a folder 
 touch file.txt  # create file.txt
+CTRL a  # jump to the beginning of the shell command 
+CTRL e  # jump to the end of the shell command 
+CTRL k  # delete everything in the shell command that comes after the cursor 
 ```
