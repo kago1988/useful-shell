@@ -23,4 +23,5 @@ cp /music/songs/song_1.mp3 /music/songs/song_2.mp3 .  # copies the two mp3s into
 rmdir folder  # removes a directory if it is empty 
 rm -r folder  # removes a folder and all its content 
 passwd  # change current password 
+cat (vim / vi / nano / less / head / tail / ...) file.txt  # in order to read the file 
 ```
