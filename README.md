@@ -27,4 +27,6 @@ rmdir folder  # removes a directory if it is empty
 rm -r folder  # removes a folder and all its content 
 passwd  # change current password 
 cat (vim / vi / nano / less / head / tail / ...) file.txt  # in order to read the file 
+export PORT=8080  # sets environment variable 'PORT' to 8080
+env  # shows current environment variables 
 ```
