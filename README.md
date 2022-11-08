@@ -17,6 +17,7 @@ ls -al  # list all files and folders in the long format
 mkdir abc  # create a folder 
 touch file.txt  # create file.txt
 touch file{1..4}{a..d}.txt  # creates 16 files 'file1a.txt', "file1b.txt', ... 
+touch file{1{a,b},2,3}.txt  # creates 4 files 'file1a.txt', "file1b.txt', 'file2.txt', 'file3.txt'
 CTRL a  # jump to the beginning of the shell command 
 CTRL e  # jump to the end of the shell command 
 CTRL k  # delete everything in the shell command that comes after the cursor 
