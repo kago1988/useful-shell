@@ -10,11 +10,13 @@ cd -  # switches into the last folder
 pwd # print working directory 
 ls  # list all visible files and folders 
 ls a*  # list all visible files and folders that start with 'a' 
+ls ~  # lists all visible files and folders from /home/user (even when the shell is somewhere else) 
 ls -a  # list all files and folders 
 ls -l  # list all visible files and folders in the long format 
 ls -al  # list all files and folders in the long format 
 mkdir abc  # create a folder 
 touch file.txt  # create file.txt
+touch file{1..4}{a..d}.txt  # creates 16 files 'file1a.txt', "file1b.txt', ... 
 CTRL a  # jump to the beginning of the shell command 
 CTRL e  # jump to the end of the shell command 
 CTRL k  # delete everything in the shell command that comes after the cursor 
