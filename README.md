@@ -18,4 +18,6 @@ CTRL a  # jump to the beginning of the shell command
 CTRL e  # jump to the end of the shell command 
 CTRL k  # delete everything in the shell command that comes after the cursor 
 cp /music/songs/song_1.mp3 .  # copies the mp3 into the current directory 
+cp /music/songs/song_1.mp3 /music/songs/song_2.mp3 .  # copies the two mp3s into the current directory 
+
 ```
