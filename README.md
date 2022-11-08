@@ -3,6 +3,7 @@
 
 
 ```
+date  # prints date + local computer time 
 cd  # switches automatically to /home/user 
 cd ..  # switches automatically one file in the hierachy up 
 cd folder  # switches automatically into the folder named 'folder' 
