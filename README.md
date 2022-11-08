@@ -34,4 +34,6 @@ export PORT=8080  # sets environment variable 'PORT' to 8080
 env  # shows current environment variables 
 date  # prints date + local machine time 
 echo The time is $( date )  # prints the line 'The time is <current date + local machine time>'
+echo You are $HOME  # prints 'You are /home/user' 
+echo You are \$HOME  # prints 'You are $HOME'
 ```
