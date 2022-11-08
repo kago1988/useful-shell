@@ -3,7 +3,6 @@
 
 
 ```
-date  # prints date + local computer time 
 cd  # switches automatically to /home/user 
 cd ..  # switches automatically one file in the hierachy up 
 cd folder  # switches automatically into the folder named 'folder' 
@@ -33,4 +32,6 @@ echo $USERNAME  # prints the variable
 echo ${USERNAME}  # prints the variable 
 export PORT=8080  # sets environment variable 'PORT' to 8080
 env  # shows current environment variables 
+date  # prints date + local machine time 
+echo The time is $( date )  # prints the line 'The time is <current date + local machine time>'
 ```
