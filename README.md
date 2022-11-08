@@ -22,4 +22,5 @@ cp /music/songs/song_1.mp3 .  # copies the mp3 into the current directory
 cp /music/songs/song_1.mp3 /music/songs/song_2.mp3 .  # copies the two mp3s into the current directory 
 rmdir folder  # removes a directory if it is empty 
 rm -r folder  # removes a folder and all its content 
+passwd  # change current password 
 ```
