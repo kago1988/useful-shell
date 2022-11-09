@@ -29,6 +29,7 @@ mv /music/songs/* .  # moves the folder songs and all content to current working
 mv /music/songs/song_{1,2}.mp3 .  # moves the two mp3s into the current directory 
 rmdir folder  # removes a directory if it is empty 
 rm -r folder  # removes a folder and all its content 
+rm old*  # deletes all files that start with 'old'
 passwd  # change current password 
 cat (vim / vi / nano / less / head / tail / ...) file.txt  # in order to read the file 
 USERNAME=user_1  # sets a variable 
