@@ -50,5 +50,7 @@ chmod go-rw file1
 chmod a+x file2 
 chmod ### file|directory  # ### = octal code. -w---x--- = 010|001|000 = 2|1|0. rwxrw-r-- = 111|110|100 = 7|6|4. etc
 chmod 664 samplefile 
-chmod 750 sampledir 
+chmod 750 sampledirectory 
+chown student test_file  # changes the owner of 'test_file' to student 
+chown -R student test_directory  # changes the owner of 'test_directory' and all subfiles & subfolders to students 
 ```
