@@ -48,5 +48,5 @@ passwd juliet  # let's you create a PW for the newly created user
 chmod WhoWhatWhich file|directory  # u,g,o,a (user, group, other, all) | +,-,= (add, remove, set exactly) | r,w,x (read, write execute) 
 chmod go-rw file1 
 chmod a+x file2 
-chmod ### file|directory  # ### = octal code. rwxrw-r-- = 111|110|100 = 7|6|4. rwx------ = 111|000|000 = 7|0|0. etc
+chmod ### file|directory  # ### = octal code. rwxrw-r-- = 111|110|100 = 7|6|4. rwx------ = 111|000|001 = 7|0|1. etc
 ```
