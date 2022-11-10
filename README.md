@@ -45,4 +45,7 @@ su - user82  # switches to another user. Of course PW will be asked if you use t
 sudo <admissible linux command>  # stands for "super user do" 
 useradd juliet  # adds the user 'juliet' 
 passwd juliet  # let's you create a PW for the newly created user 
+chmod WhoWhatWhich file|directory  # u,g,o,a (user, group, other, all) | +,-,= (add, remove, set exactly) | r,w,x (read, write execute) 
+chmod go-rw file1 
+chmod a+x file2 
 ```
