@@ -53,4 +53,5 @@ chmod 664 samplefile
 chmod 750 sampledirectory 
 chown student test_file  # changes the owner of 'test_file' to student 
 chown -R student test_directory  # changes the owner of 'test_directory' and all subfiles & subfolders to students 
+chown visitor:guests test_file  # changes the owner of 'test_file' to user 'visitor' and to group 'guests' 
 ```
