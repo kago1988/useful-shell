@@ -43,4 +43,6 @@ echo You are $HOME  # prints 'You are /home/user'
 echo You are \$HOME  # prints 'You are $HOME'
 su - user82  # switches to another user. Of course PW will be asked if you use this command 
 sudo <admissible linux command>  # stands for "super user do" 
+useradd juliet  # adds the user 'juliet' 
+passwd juliet  # let's you create a PW for the newly created user 
 ```
