@@ -41,4 +41,5 @@ date  # prints date + local machine time
 echo The time is $( date )  # prints the line 'The time is <current date + local machine time>'
 echo You are $HOME  # prints 'You are /home/user' 
 echo You are \$HOME  # prints 'You are $HOME'
+su - user82  # switches to another user. Of course PW will be asked if you use this command 
 ```
