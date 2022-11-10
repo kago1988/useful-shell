@@ -49,4 +49,6 @@ chmod WhoWhatWhich file|directory  # u,g,o,a (user, group, other, all) | +,-,= (
 chmod go-rw file1 
 chmod a+x file2 
 chmod ### file|directory  # ### = octal code. -w---x--- = 010|001|000 = 2|1|0. rwxrw-r-- = 111|110|100 = 7|6|4. etc
+chmod 664 samplefile 
+chmod 750 sampledir 
 ```
