@@ -63,4 +63,5 @@ ps lax  # lists all running processes
 ps -ef  # lists all running processes 
 ps j  # lists all running processes 
 watch <valid linux command>  # places a watch stream on a linux command 
+netstat  # find out which process is listening upon a port 
 ```
