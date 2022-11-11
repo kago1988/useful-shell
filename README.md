@@ -61,4 +61,5 @@ ps aux  # lists all running processes
 ps lax  # lists all running processes 
 ps -ef  # lists all running processes 
 ps j  # lists all running processes 
+watch <valid linux command>  # places a watch stream on a linux command 
 ```
