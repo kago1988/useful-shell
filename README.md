@@ -60,4 +60,5 @@ top  # places a watcher on running processes which consume the most resources at
 ps aux  # lists all running processes 
 ps lax  # lists all running processes 
 ps -ef  # lists all running processes 
+ps j  # lists all running processes 
 ```
