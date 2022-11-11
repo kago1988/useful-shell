@@ -6,6 +6,7 @@
 cd  # switches automatically to /home/user 
 cd ..  # switches automatically one file in the hierachy up 
 cd folder  # switches automatically into the folder named 'folder' 
+cd path  # switches automatically into the folder named 'path' 
 cd -  # switches into the last folder 
 pwd # print working directory 
 ls  # list all visible files and folders 
