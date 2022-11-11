@@ -56,7 +56,7 @@ chown -R student test_directory  # changes the owner of 'test_directory' and all
 chown visitor:guests test_file  # changes the owner of 'test_file' to user 'visitor' and to group 'guests' 
 chown :guests test_file  # changes the owner of 'test_file' to group 'guests' 
 chgr guests test_file  # changes the owner of 'test_file' to group 'guests' 
-top  # lists the running processes which consume the most resources at the given moment 
+top  # places a watcher on running processes which consume the most resources at the given moment. Exit with 'q' 
 ps aux  # lists all running processes 
 ps lax  # lists all running processes 
 ps -ef  # lists all running processes 
