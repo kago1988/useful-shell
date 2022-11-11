@@ -64,5 +64,5 @@ ps -ef  # lists all running processes
 ps j  # lists all running processes 
 watch <valid linux command>  # places a watch stream on a linux command 
 netstat  # find out which process is listening upon a port 
-kill 1095  # kills a process with the PID 1095. The PID is printed by netstat. 
+kill 1095  # kills a process with the ProcessID (PID) 1095. The PID is printed by netstat. 
 ```
